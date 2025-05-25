@@ -1,0 +1,77 @@
+/**app.wxss**/
+@import './miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.body-body {
+  margin-top: 15px; /* 上方外边距为 15px */
+  border-bottom: 2px solid #ccc; /* 添加下边框，2px 宽度，颜色为 #ccc */
+  border-radius: 50rpx; /* 边框圆角为 40rpx */
+  border: 20rpx solid #efefef; /* 边框样式 */
+  box-shadow: 2rpx 2rpx 2rpx #aaa; /* 添加阴影效果 */
+  color:rgb(230, 191, 143);
+  background-color: rgba(136, 225, 131, 0.182); /* 设置背景颜色为 bisque */
+}
+
+/* 定义面板的样式 */
+.panel {
+	padding: 20rpx; /* 内边距为20像素 */
+	background-color: #fff; /* 背景色为白色 */
+	border: 1rpx solid #ccc; /* 边框为1像素实线，颜色为灰色 */
+	border-radius: 10rpx; /* 圆角半径为10像素 */
+	margin-bottom: 20rpx; /* 下边距为20像素，用于与下一个面板之间的间距 */
+	box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1); /* 添加阴影效果，水平偏移0，垂直偏移2像素，模糊半径4像素，颜色为淡黑色透明度0.1 */
+  }
+  
+  /* 定义面板标题的样式 */
+  .panel-header {
+	font-size: 20rpx; /* 字体大小为20像素 */
+	font-weight: bold; /* 字体加粗 */
+	color: #333; /* 文字颜色为深灰色 */
+	margin-bottom: 10rpx; /* 下边距为10像素 */
+  text-align: center; /* 文本居中对齐 */
+  }
+  
+  /* 定义面板内容的样式 */
+  .panel-content {
+	padding: 10rpx; /* 内边距为10像素 */
+	border-top: 1rpx solid #ccc; /* 上边框为1像素实线，颜色为灰色 */
+  }
+  
+  /* 定义内容标题的样式 */
+  .content-title {
+	font-size: 18rpx; /* 字体大小为18像素 */
+	font-weight: bold; /* 字体加粗 */
+	color: #333; /* 文字颜色为深灰色 */
+	margin-bottom: 10rpx; /* 下边距为10像素 */
+  }
+  
+  /* 定义内容文本的样式 */
+  .content-text {
+	font-size: 16rpx; /* 字体大小为16像素 */
+	color: #666; /* 文字颜色为浅灰色 */
+	line-height: 1.5; /* 行高为字体大小的1.5倍 */
+  }
+  
+  /* 定义切换按钮的样式 */
+  .toggle-btn {
+	text-align: center; /* 文本居中对齐 */
+	color: #007aff; /* 文字颜色为蓝色 */
+	font-size: 16rpx; /* 字体大小为16像素 */
+	cursor: pointer; /* 鼠标指针样式为手型 */
+	margin-bottom: 10rpx; /* 下边距为10像素 */
+  }
+
+  /* button */
+
+  

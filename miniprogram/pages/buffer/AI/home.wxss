@@ -1,0 +1,154 @@
+
+/* tabs */
+
+  
+
+/* Rich Text Container */
+.rich-text-container {
+	text-align: center; /* 居中对齐 */
+	border: 2px dashed #ccc; /* 虚线边框 */
+	padding: 24px;
+	margin: 20px; /* 增加外边距 */
+	border-radius: 10px; /* 圆角边框 */
+	background-color: #f9f9f9; /* 背景色 */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  }
+  
+  .rich-text-container .big-text {
+	font-size: 34px; /* 大字 */
+	font-weight: bolder; /* 更粗的字体 */
+	color: #1d4e2e; /* 暗一点的颜色 */
+	margin-bottom: 20px; /* 增加下边距 */
+	
+  }
+  
+  /* Button Container */
+  .button-container-1 {
+	width: 90%; /* 按钮宽度调整为屏幕宽度的90% */
+	margin: 0 auto; /* 居中对齐 */
+  }
+  
+  /* Custom Button */
+  .custom-button {
+	width: 100%; /* 按钮宽度占满父容器 */
+	font-weight: bold; /* 字体粗体 */
+	background-color: #84c8c1; /* 按钮背景色 */
+	padding: 14px; /* 按钮内边距 */
+	display: flex;
+	justify-content: center; /* 中心对齐 */
+	align-items: center;
+	margin-bottom: 20px; /* 按钮之间的垂直间距 */
+	border-radius: 25px; /* 边框圆角 */
+	border: 2px solid #efefef; /* 边框样式 */
+	box-shadow: 2px 2px 6px #aaa; /* 添加阴影效果 */
+	transition: background-color 0.3s; /* 背景色过渡效果 */
+  }
+  
+  .custom-button:hover {
+	background-color: #72b8b1; /* 悬停时的背景色 */
+  }
+  
+  .icon-right {
+	margin-left: 10px; /* 调整图标与文字之间的间距 */
+  }
+  
+  /* Bluetooth Device List */
+  .devices_summary {
+	padding: 10px;
+	font-size: 16px;
+  }
+  
+  .device_item {
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	color: #666;
+  }
+  
+  .device_item_hover {
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+
+  /* chatgpt部分*/
+  /* container class for overall layout */
+/* 通用消息样式 */
+
+  
+  /* 用户消息样式 */
+  .user-message {
+	background-color: #eca7f280;
+	color: white;
+	align-self: flex-start;
+	border: 1px solid #dddddd;
+	justify-content: flex-start;
+	/* margin-left: 50px;
+	margin-right: 50px; */
+  }
+  
+  /* 机器人消息样式 */
+  .bot-message {
+	background-color: #4d71e975;
+	color : white;
+	align-self: flex-start;
+	border: 1px solid #ddd;
+	justify-content: flex-start;
+	/* margin-left: 50px;
+	margin-right: 50px; */
+  }
+  
+  /* 输入框容器样式 */
+  .view-contain-ti {
+	display: flex;
+	height: 40px;
+	margin: 20px;
+	border: 3rpx solid #3fba6c66;
+	border-radius: 10rpx;
+	align-items: center;
+  }
+  
+  /* 输入框标签样式 */
+  .text-ti {
+	font-size: 12px;
+	background: rgba(255, 255, 255, 0);
+	margin: -10px 0 0 10px;
+	padding: 0 5px;
+	color: rgb(144, 147, 167);
+	
+  }
+  
+  /* 输入框样式 */
+  .input1 {
+	flex: 1;
+	margin: auto 10px;
+	border: none;
+	outline: none;
+	
+  }
+  
+  /* 发送按钮样式 */
+  .send-button {
+	margin: 20px;
+	background-color: #32b6393f;
+	color: white;
+	padding: 8px 16px; /* 调整按钮内边距 */
+	border: none;
+	border-radius: 50px; /* 缩小按钮的圆角 */
+	cursor: pointer;
+  }
+  
+  
+  /* 滚动区域样式 */
+  .scroll-view {
+	flex: 1;
+	overflow-y: hidden;
+	height: 400px; /* Adjust as needed */
+  }
+  
+  /* 消息列表样式 */
+  .message-list {
+	display: flex;
+	flex-direction: column;
+	padding: 1px;
+  }
+  
+  

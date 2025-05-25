@@ -1,0 +1,83 @@
+<view class="body-body">
+  
+<!-- 使用 scroll-view 组件创建可滚动区域，垂直滚动，类型为 list -->
+<scroll-view style="flex: 1; overflow-y: hidden;" scroll-y type="list">
+ 
+  <!-- 页面主要容器 -->
+
+
+    <!-- 用户信息区域 -->
+   
+
+      <!-- 使用 block 标签根据条件渲染不同的内容 -->
+      <block wx:if="{{canIUseNicknameComp && !hasUserInfo}}" >
+        <view class="userinfo">
+          <!-- 如果可以使用昵称组件并且没有用户信息，则显示上传头像按钮和输入昵称的区域 -->
+          <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+            <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+          </button>
+          <view class="nickname-wrapper">
+            <input type="nickname" style="flex: 1;" placeholder="请输入用户ID" bind:change="onInputChange" />
+          </view>
+        </view>
+      </block>
+
+      <block wx:elif="{{!hasUserInfo}}">
+        <!-- 如果没有用户信息，则显示获取用户头像和昵称的按钮或提示信息 -->
+        <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取用户头像和昵称 </button>
+        <view wx:else> 请升级到2.10.4版本及以上 </view>
+      </block>
+
+      <block wx:else>
+
+        <!-- 如果以上条件都不满足，显示用户头像和昵称 -->
+       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <view style="font-weight: bold ;text-align: center ; font-size:18px ;color: #c0c0c0;">{{userInfo.nickName}}</view>
+       
+        <view class="body-body">
+        
+          <view class="weui-panel__ft">
+              <navigator url="../user/record/record">
+                  <view class="weui-cell weui-cell_access weui-cell_link">
+                  <icon class="icon-left" type="waiting" size="26"></icon>
+                  <view class="weui-cell__bd">
+                    <view style="font-weight: bold ;text-align: center;"> 记录 </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                  </view>
+              </navigator>
+          </view>
+
+            <view class="weui-panel__ft">
+              <navigator url="../user/logs/logs">
+                  <view class="weui-cell weui-cell_access weui-cell_link">
+                  <!-- <icon class="icon-left" type="success" size="23"></icon> -->
+                  <!-- <icon class="icon-left" type="safe_success" size="23"></icon> -->
+                  <icon class="icon-left" type="info" size="26"></icon>
+                  <!-- <icon class="icon-left" type="warn" size="23"></icon> -->
+                  <!-- <icon class="icon-left" type="waiting" size="23"></icon> -->
+                  <view class="weui-cell__bd">
+                    <view style="font-weight: bold ;text-align: center;"> 日志 </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                  </view>
+              </navigator>
+          </view>
+        </view>
+        
+        <!-- 面板 -->
+        <view class="panel" >
+          <view class="panel-header">{{panelTitle}}</view>
+          <view class="toggle-btn"  bindtap="togglePanel">{{toggleText}}</view>
+          <view class="panel-content" hidden="{{!isExpanded}}">
+            <view class="content-text">{{panelContent}}</view>
+          </view>
+        </view>
+       
+      </block>
+
+</scroll-view>
+</view>
+
+
+      

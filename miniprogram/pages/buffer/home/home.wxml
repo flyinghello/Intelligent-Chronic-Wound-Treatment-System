@@ -1,0 +1,52 @@
+
+<!--  -->
+<!-- <view class="weui-tabs">
+
+  <mp-tabs 
+    tabs="{{tabs}}" 
+    activeTab="{{activeTab}}" 
+    swiperClass="weui-tabs-swiper"
+    bindtabclick="onTabClick"
+    bindchange="onChange"
+    activeClass="tab-bar-title__selected"
+    
+  >
+    <block wx:for="{{tabs}}" wx:key="title">
+      <view class="tab-content" data-set="{{item}}" slot="tab-content-{{index}}" bind:tap="handleClick" >
+        <image src="{{item.img}}"   style="height:150px;"></image>
+      </view>
+    </block>
+  </mp-tabs>
+
+</view> -->
+
+
+
+
+  <!-- 输入框 -->
+<view style="display: flex; margin-top: 50px">
+<view class="view-contain-ti">
+    <text class="text-ti">user</text>
+    <input 
+      type="text" 
+      value="{{inputValue}}" 
+      bindinput="onInput" 
+      placeholder="输入消息..."  
+      class="input1"
+    />
+  </view>
+
+  <!-- 发送按钮 -->
+  <button bindtap="sendMessage" class="send-button">发送</button>
+</view>
+  <!-- 消息显示区域 -->
+  <view class="body-body">
+    <scroll-view class="scroll-view" scroll-y>
+      <view class="message-list">
+        <block wx:for="{{messages}}" wx:key="index">
+          <text style="font-size: 20px; font-weight: bolder; color: #1d4e2e; margin-left: 10px; margin-top: 10px" >{{item.role}}:  <text class="{{item.role}}-message">{{item.content}}</text></text> 
+          
+        </block>
+      </view>
+    </scroll-view>
+  </view>

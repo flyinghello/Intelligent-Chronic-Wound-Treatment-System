@@ -1,0 +1,19 @@
+<!--pages/record/record.wxml-->
+
+<scroll-view class="scrollarea" scroll-y type="list">
+    <view class="weui-panel">
+        <view class="weui-panel__hd"></view>
+            <view class="weui-panel__bd">
+                <view wx:for="{{record}}" wx:key="{{index}}" class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">{{item.id}}号伤口</view>
+                    <view class="weui-media-box__desc">温度：{{item.temperature}}</view>
+                    <view class="weui-media-box__desc">持续时长：{{item.duration}}</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">设备来源：{{item.source}}</view>
+                        <view class="weui-media-box__info__meta">时间：{{item.time}}</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">其他情况：{{item.extraInfo}}</view>
+                    </view>
+                </view>      
+            </view> 
+    </view> 
+</scroll-view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/device/device",
+    "pages/user/user",
+    "pages/user/record/record",
+    "pages/user/logs/logs"
+  ],
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+
+
+  "tabBar": {
+	"list": [{
+		"pagePath": "pages/home/home",
+		"text": "主页",
+		"iconPath": "/image/tabbar-icon/home-icon.png",
+		"selectedIconPath": "/image/tabbar-icon/home-icon-1.png"
+	},
+  {
+    "pagePath": "pages/device/device",
+		"text": "设备",
+    "iconPath": "/image/tabbar-icon/device-icon.png",
+		"selectedIconPath":"/image/tabbar-icon/device-icon-1.png"
+  },
+	{
+		"pagePath": "pages/user/user",
+		"text": "个人中心",
+    "iconPath": "/image/tabbar-icon/personal-icon.png",
+		"selectedIconPath":"/image/tabbar-icon/personal-icon-1.png"
+	}
+  ]
+},
+
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "lazyCodeLoading": "requiredComponents"
+  
+}
