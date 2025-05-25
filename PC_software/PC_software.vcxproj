@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2DFA80B7-E842-4667-8FBA-0A9D8BAEFC32}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.22621.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>6.5.3_mingw_64</QtInstall>
+    <QtModules>core;gui;network;widgets;websockets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>6.5.3_mingw_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+    <Import Project="PropertySheet1.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CardWidget.cpp" />
+    <ClCompile Include="ChartWithHover.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </ClCompile>
+    <ClCompile Include="HttpMgr.cpp" />
+    <ClCompile Include="Imagethread.cpp" />
+    <ClCompile Include="PatientInfoWidget.cpp" />
+    <ClCompile Include="PatientShow.cpp" />
+    <ClCompile Include="PatientTabView.cpp" />
+    <ClCompile Include="PatientView.cpp" />
+    <ClCompile Include="T_About.cpp" />
+    <ClCompile Include="T_Addfdc.cpp" />
+    <ClCompile Include="T_BaseComponents.cpp" />
+    <ClCompile Include="T_BasePage.cpp" />
+    <ClCompile Include="T_Card.cpp" />
+    <ClCompile Include="T_ElaScreen.cpp" />
+    <ClCompile Include="T_Graphics.cpp" />
+    <ClCompile Include="T_Home.cpp" />
+    <ClCompile Include="T_Icon.cpp" />
+    <ClCompile Include="T_IconDelegate.cpp" />
+    <ClCompile Include="T_IconModel.cpp" />
+    <ClCompile Include="T_ListView.cpp" />
+    <ClCompile Include="T_ListViewModel.cpp" />
+    <ClCompile Include="T_LogModel.cpp" />
+    <ClCompile Include="T_LogWidget.cpp" />
+    <ClCompile Include="T_Navigation.cpp" />
+    <ClCompile Include="T_Popup.cpp" />
+    <ClCompile Include="T_Setting.cpp" />
+    <ClCompile Include="T_Tablefdc.cpp" />
+    <ClCompile Include="T_TableView.cpp" />
+    <ClCompile Include="T_TableViewModel.cpp" />
+    <ClCompile Include="T_TreeItem.cpp" />
+    <ClCompile Include="T_TreeView.cpp" />
+    <ClCompile Include="T_TreeViewModel.cpp" />
+    <ClCompile Include="T_UpdateWidget.cpp" />
+    <ClCompile Include="UserMgr.cpp" />
+    <ClCompile Include="VideoPlayerWidget.cpp" />
+    <ClCompile Include="WebsocketMgr.cpp" />
+    <QtRcc Include="PC_software.qrc" />
+    <QtUic Include="Appshow.ui" />
+    <QtUic Include="CardWidget.ui" />
+    <QtUic Include="PatientInfoWidget.ui" />
+    <QtUic Include="PatientShow.ui" />
+    <QtUic Include="PatientTabView.ui" />
+    <QtUic Include="PatientView.ui" />
+    <QtUic Include="PC_software.ui" />
+    <QtMoc Include="PC_software.h" />
+    <ClCompile Include="Appshow.cpp" />
+    <ClCompile Include="PC_software.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="T_Addfdc.ui" />
+    <QtUic Include="T_Tablefdc.ui" />
+    <QtUic Include="VideoPlayerWidget.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Appshow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_About.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_BaseComponents.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_BasePage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Card.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_ElaScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Graphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Home.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Icon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_IconDelegate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_IconModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_ListView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_ListViewModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_LogModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_LogWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Navigation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Popup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Setting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_TableView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_TableViewModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_TreeItem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_TreeView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_TreeViewModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_UpdateWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Addfdc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="T_Tablefdc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="WebsocketMgr.h" />
+    <QtMoc Include="VideoPlayerWidget.h" />
+    <QtMoc Include="ChartWithHover.h" />
+    <ClInclude Include="CardWidget.h" />
+    <ClInclude Include="global.h" />
+    <QtMoc Include="UserMgr.h" />
+    <QtMoc Include="HttpMgr.h" />
+    <QtMoc Include="Imagethread.h" />
+    <QtMoc Include="PatientShow.h" />
+    <QtMoc Include="PatientTabView.h" />
+    <QtMoc Include="PatientView.h" />
+    <QtMoc Include="PatientInfoWidget.h" />
+    <ClInclude Include="singleton.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

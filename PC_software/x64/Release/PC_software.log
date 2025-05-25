@@ -1,0 +1,311 @@
+﻿  PatientShow.cpp
+  PatientTabView.cpp
+  PatientView.cpp
+  Appshow.cpp
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x415 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x416 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x419 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x41a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x41b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x41c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x442 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x444 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x446 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x447 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x448 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x449 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x46b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x46c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x46d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x46e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x470 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x471 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x473 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x476 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x47a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x611 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x613 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x614 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x615 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x616 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x617 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x619 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x9b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x9b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x9b4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x9b5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xbc5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xbc6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xbc7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xbc9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xbcc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc16 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc7d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc7f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc81 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xc82 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xcd6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xcd7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xcd8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xd21 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xd25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xd27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xd8e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xdd3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xdd4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xdd5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xe23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xe24 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xe27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xe2a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xe9f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xea1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xea3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xea4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xef7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xef8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xef9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1b6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xf46 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xf4a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1b7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xf4c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0xfbb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1004 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1b8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1005 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1006 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x104a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1ba 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x104c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x104d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x104e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1ef 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1051 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x108b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1f0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x108d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1f3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x108e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x1f5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x298 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1091 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x299 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x29c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x29e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x3ff 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10b5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x400 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10ef 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x4ee 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\PatientTabView.cpp(1,1): warning C4828: 文件包含在偏移 0x4ef 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x10f5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1112 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1114 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1115 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1116 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1119 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1153 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1155 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1156 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1159 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1176 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1178 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1179 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x117a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x117d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11b7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11ba 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11da 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11dc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11dd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11de 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x11e1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x121b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x121d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x121e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1221 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1230 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1231 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1232 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1233 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1235 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1262 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1263 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1264 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1265 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1267 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c83 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c84 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c85 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c86 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c87 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1c88 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1cc1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1cc5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1dc5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1dc6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1dc7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1dc9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1dcb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1ea6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1ea7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f08 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f09 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f0d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f0e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f11 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f12 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x1f13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22c7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22c9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22ca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22cc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22cd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22d0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22d3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x22d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x2321 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x2323 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x2326 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x2329 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x232a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x237a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x237b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x237c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x237e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x237f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x23d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x23d5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x23d6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x23d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.cpp(1,1): warning C4828: 文件包含在偏移 0x23da 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2c6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2cc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2cd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2da 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x100 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x102 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2cf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ea 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2fd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x301 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x302 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x306 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x308 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x313 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 PatientShow.cpp)
+  moc_Appshow.cpp
+  moc_T_Home.cpp
+  moc_T_Addfdc.cpp
+  moc_UserMgr.cpp
+  moc_HttpMgr.cpp
+  moc_Imagethread.cpp
+  moc_PatientShow.cpp
+  moc_PatientTabView.cpp
+  moc_PatientView.cpp
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x100 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x102 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2cf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ea 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2fd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x301 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x302 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x306 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x308 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x313 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_HttpMgr.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2c6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2cc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2cd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\Appshow.h(1,1): warning C4828: 文件包含在偏移 0x2da 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_Appshow.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x100 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x102 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x10f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2cf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2d9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2e5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2ea 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2f2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x2fd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x301 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x302 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x306 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x308 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x30f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+E:\socketcpp\PC_software\PC_software\singleton.h(1,1): warning C4828: 文件包含在偏移 0x313 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。 (编译源文件 x64\Release\moc\moc_UserMgr.cpp)
+  PC_software.vcxproj -> E:\socketcpp\PC_software\x64\Release\PC_software.exe

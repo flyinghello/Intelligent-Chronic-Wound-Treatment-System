@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\emple">
+      <UniqueIdentifier>{3addcfc6-ae2b-4b74-b750-1bb78b776d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\emple">
+      <UniqueIdentifier>{0dcded70-723c-4cb4-bad5-fd362653b209}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PC_software.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="PC_software.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="PC_software.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="PC_software.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Appshow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T_About.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_BaseComponents.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_BasePage.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Card.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_ElaScreen.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Graphics.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Home.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Icon.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_IconDelegate.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_IconModel.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_ListView.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_ListViewModel.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_LogModel.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_LogWidget.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Navigation.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Popup.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Setting.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_TableView.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_TableViewModel.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_TreeItem.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_TreeView.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_TreeViewModel.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_UpdateWidget.cpp">
+      <Filter>Source Files\emple</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Addfdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T_Tablefdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Imagethread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientTabView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartWithHover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientInfoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayerWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebsocketMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Appshow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="T_About.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_BaseComponents.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_BasePage.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Card.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_ElaScreen.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Graphics.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Home.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Icon.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_IconDelegate.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_IconModel.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_ListView.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_ListViewModel.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_LogModel.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_LogWidget.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Navigation.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Popup.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Setting.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_TableView.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_TableViewModel.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_TreeItem.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_TreeView.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_TreeViewModel.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_UpdateWidget.h">
+      <Filter>Header Files\emple</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Addfdc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="T_Tablefdc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="HttpMgr.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Imagethread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserMgr.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientShow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientTabView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ChartWithHover.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="VideoPlayerWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WebsocketMgr.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Appshow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="T_Addfdc.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="T_Tablefdc.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PatientShow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PatientTabView.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PatientView.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CardWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PatientInfoWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="VideoPlayerWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Form Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
