@@ -25,5 +25,6 @@
 
 ## 实验结果
 <div align="center">
-<img width="362" height="210" alt="image" src="https://github.com/user-attachments/assets/4c083798-3ab3-4d47-9db1-aac774f59d77" />
+<img width="586" height="513" alt="image" src="https://github.com/user-attachments/assets/39cc5a7e-faf4-4020-934f-b669d1c8c484" />
+
 </div>
