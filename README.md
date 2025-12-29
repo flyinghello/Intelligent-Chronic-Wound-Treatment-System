@@ -1,4 +1,4 @@
-<img width="362" height="210" alt="image" src="https://github.com/user-attachments/assets/e9c3dd26-e4af-460f-8a7b-b9371478426c" />#慢性伤口智能治疗系统(Intelligent-Chronic-Wound-Treatment-System)
+#慢性伤口智能治疗系统(Intelligent-Chronic-Wound-Treatment-System)
 本项目是基于图像识别算法+物联网技术搭建的一个慢性伤口居家治疗系统，利用云端服务器作为数据处理中心，微信小程序为用户交互平台，PC端软件为医生处理交互平台，实现慢性伤口智能化远程居家治疗与监护一体化。  
 
 系统结构：
