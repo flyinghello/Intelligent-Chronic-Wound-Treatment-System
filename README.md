@@ -69,3 +69,9 @@
     └── save_result.py        # 分析结果统计
 ```
 ## requestment
+| 开发类型       | 所需工具/环境                                   |
+|----------------|------------------------------------------------|
+| 硬件开发       | STM32CubeIDE、ESP32 Arduino Core、串口调试助手（SecureCRT/SSCOM） |
+| 小程序开发     | 微信开发者工具（基础库≥2.10.4）、Node.js 14+    |
+| 服务端开发     | Node.js 14+、Python 3.7+                        |
+| AI 算法开发    | TensorFlow 2.x、OpenCV 4.x、NumPy 1.20+、Matplotlib 3.5+ |
