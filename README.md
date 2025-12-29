@@ -26,5 +26,45 @@
 ## 实验结果
 <div align="center">
 <img width="586" height="513" alt="image" src="https://github.com/user-attachments/assets/39cc5a7e-faf4-4020-934f-b669d1c8c484" />
-
 </div>
+
+## 目录结构
+```text
+伤口识别与监测系统/
+├── Equipment/
+│   ├── STM32/                # STM32核心代码
+│   │   ├── main.c            # 主函数（初始化+逻辑控制）
+│   │   ├── serial.c          # 串口通信配置
+│   │   ├── oled.c            # OLED显示驱动
+│   │   ├── pwm.c             # PWM驱动配置
+│   │   ├── key.c             # 按键输入处理
+│   │   └── led.c             # LED指示控制
+│   └── ESP32/                # ESP32蓝牙代码
+│       └── ble_server.ino    # BLE服务配置与数据收发
+├── Mobile/
+│   ├── pages/
+│   │   ├── device/           # 蓝牙+图像核心功能页
+│   │   │   ├── device.ts     # 逻辑代码（蓝牙/上传/数据处理）
+│   │   │   ├── device.wxml   # 页面结构
+│   │   │   └── device.wxss   # 样式文件
+│   │   ├── user/             # 用户中心页
+│   │   └── home/             # 首页
+│   ├── utils/
+│   │   └── weapp.socket.io.js# Socket.io通信工具
+│   ├── app.json              # 小程序全局配置
+│   └── project.config.json   # 项目配置
+├── PC/
+│   ├── aHardware_control_system.ts  # Node.js服务端主程序
+│   └── app.py                       # AI图像分割算法
+│   ├── models/               # 模型定义
+│   │   ├── Unet.py           # U-Net模型
+│   │   ├── deeplab.py        # DeepLabv3+模型
+│   │   └── SegNet.py         # SegNet模型
+│   ├── dataset.py            # 数据预处理与增强
+│   ├── utils.py              # 评估指标（IoU/Dice）
+│   ├── train.py              # 模型训练脚本
+│   ├── augment.py            # 图像增强工具
+│   └── padding.py            # 图像补边处理
+└── 辅助工具/
+    └── save_result.py        # 分析结果统计
+```
