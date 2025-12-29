@@ -1,7 +1,7 @@
-#慢性伤口智能治疗系统(Intelligent-Chronic-Wound-Treatment-System)
+# 慢性伤口智能治疗系统(Intelligent-Chronic-Wound-Treatment-System)
 本项目是基于图像识别算法+物联网技术搭建的一个慢性伤口居家治疗系统，利用云端服务器作为数据处理中心，微信小程序为用户交互平台，PC端软件为医生处理交互平台，实现慢性伤口智能化远程居家治疗与监护一体化。  
 
-系统结构：
+## 系统结构：
   本项目通过微信小程序调用手机摄像头采集伤口图像信息，利用nodejs+socket.io技术实现手机移动端与云端服务器的双向信息通信，将获取的图像信息上传至云端服务器，利用伤口评估模型和电极测距评估模型对图像进行评估，得到评估结果（伤口周长、伤口面积、两电极贴片距离）并在数据库中进行存储。再将评估结果返回微信小程序。微信小程序可通过调用手机蓝牙串口与电刺激设备实现实时交互，控制电刺激装置输出电场强度以及获取伤口温度信息，当温度超过阈值时，小程序会触发提示报警，提醒用户可能存在感染风险。此外，微信小程序还提供“文心一言”大语言模型接口，实现患者的深入沟通，缓解焦虑情绪。
 <img width="362" height="210" alt="image" src="https://github.com/user-attachments/assets/3f7319b3-f275-41dd-a144-fc33d3fc1e4c" />
 <img width="426" height="153" alt="image" src="https://github.com/user-attachments/assets/eeb208bb-ea11-4280-85b9-c8d796cddfa9" />
