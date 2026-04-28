@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/PC_software">
+        <file>image/coffee_candy.jpg</file>
+        <file>image/123.jpg</file>
+        <file>image/g.png</file>
+        <file>image/t.png</file>
+        <file>image/v.png</file>
+        <file>image/11.mp4</file>
+        <file>image/yl.jpg</file>
+        <file>image/yl.png</file>
+    </qresource>
+</RCC>
