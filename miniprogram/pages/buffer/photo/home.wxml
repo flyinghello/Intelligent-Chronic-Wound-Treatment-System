@@ -1,0 +1,29 @@
+<!--pages/photo/photo.wxml-->
+
+<view class="photo-page">
+  <view class="photo-body">
+    <mp-cells title="记录描述">
+      <mp-cell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
+          <textarea class="weui-textarea" placeholder="暂无描述" style="height: 5.3em" value="{{photo.description}}" 
+          data-modal="description" bindinput="bindInputChange"/>
+          <view class="weui-textarea-counter">{{photo.description.length || 0}}/200</view>
+      </mp-cell>
+    </mp-cells>
+    <mp-cells title="当前位置">
+      <mp-cell title="定位地址" ext-class="">
+        <mp-icon slot="icon" icon="location" size="18" color="#333"></mp-icon>
+        <text slot="footer">{{photo.address}}</text>
+      </mp-cell>
+    </mp-cells>
+    <mp-cells title="现场图片">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uploadFile}}" files="{{files}}" max-count="9" title="图片上传" tips="图片小于2M"></mp-uploader>
+        </view>
+      </view>
+    </mp-cells>
+  </view>
+  <view class="photo-footer">
+    <button style="width: 150px;" type="primary" bindtap="submit">提交</button>
+  </view>
+</view>

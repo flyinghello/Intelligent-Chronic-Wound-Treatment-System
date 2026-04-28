@@ -1,0 +1,23 @@
+
+ 
+ <view class="weui-tabs">
+
+  <mp-tabs 
+    tabs="{{tabs}}" 
+    activeTab="{{activeTab}}" 
+    swiperClass="weui-tabs-swiper"
+    bindtabclick="onTabClick"
+    bindchange="onChange"
+    activeClass="tab-bar-title__selected"
+    
+  >
+    <block wx:for="{{tabs}}" wx:key="title">
+      <view class="tab-content" data-set="{{item}}" slot="tab-content-{{index}}" bind:tap="handleClick" >
+        <image src="{{item.img}}"   style="height:150px;"></image>
+      </view>
+    </block>
+  </mp-tabs>
+
+</view>
+
+

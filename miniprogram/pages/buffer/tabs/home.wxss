@@ -1,0 +1,37 @@
+
+/* tabs */
+.weui-tabs {
+	width: 100%;
+	height: auto;
+	
+  }
+  
+  .weui-tabs-bar__wrp {
+	width: 100%;
+	background: var(--weui-BG-2);
+	margin-top: 0;
+	padding-top: 10px;
+  }
+  
+  .weui-tabs-bar__content {
+	width: 100%;
+	
+	height: auto;
+  }
+  
+  .weui-tabs-bar__item {
+	display: inline-block;
+	width: 20%;
+	padding-left: 5px;  /* 左边界 */
+	padding-right: 5px; /* 右边界 */
+  }
+  
+  .weui-tabs-bar__title {
+	display: inline-block;
+	
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+  }
+  
+  

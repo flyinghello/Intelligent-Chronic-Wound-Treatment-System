@@ -1,0 +1,48 @@
+
+
+<view class="body-body">
+
+  <!-- 富文本 -->
+  <view class="rich-text-container">
+    <rich-text nodes="{{richTextNodes}}" bindtap="onRichTextTap"></rich-text>
+  </view>
+
+  <!-- 按钮 -->
+  <view class="button-container-1">
+    <button bindtap="openTypeS" data-title="标题一" data-subtitle="副标题一" data-desc="描述一" data-tips="提示一" class="custom-button">
+      <mp-icon icon="setting" type="field" color="green" size="{{23}}"></mp-icon>
+      按钮一
+    </button>
+      <slider bindchange="slider1change"  show-value left-icon="cancel" right-icon="success_no_circle"/>
+    <button bindtap="openTypeS" data-title="标题二" data-subtitle="副标题二" data-desc="描述二" data-tips="提示二" class="custom-button">
+      <mp-icon icon="time" type="field" color="green" size="{{23}}"></mp-icon>
+      按钮二
+    </button>
+      <slider bindchange="slider1change"  show-value left-icon="cancel" right-icon="success_no_circle"/>
+    <button bindtap="openTypeS" data-title="标题三" data-subtitle="副标题三" data-desc="描述三" data-tips="提示三" class="custom-button">
+      <mp-icon icon="help" type="field" color="green" size="{{23}}"></mp-icon>
+      按钮三
+    </button>
+      <slider bindchange="slider1change"  show-value left-icon="cancel" right-icon="success_no_circle"/>
+  </view>
+
+
+  <!-- 半屏对话框 -->
+  <mp-halfScreenDialog
+    bindbuttontap="buttontap"
+    show="{{typeS}}"
+    maskClosable="{{false}}"
+    title="{{dialogTitle}}"
+    subTitle="{{dialogSubTitle}}"
+    desc="{{dialogDesc}}"
+    tips="{{dialogTips}}" 
+    
+    buttons="{{buttons}}"
+  >  
+
+  </mp-halfScreenDialog>
+
+ 
+
+</view>
+

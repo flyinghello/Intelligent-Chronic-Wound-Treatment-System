@@ -1,0 +1,68 @@
+/* pages/photo/photo.wxss */
+
+page {
+  height: 100%;
+}
+mp-cell {
+  font-size: 14px;
+}
+
+.photo-page {
+  background-color: #ededed;
+  height: 100%;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-rows: 1fr auto; 
+}
+.photo-body {
+  overflow-y: auto;
+}
+.photo-footer {
+  padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.video-container {
+  display: flex;
+  padding: 0;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-plus {
+  width: 75px;
+  height: 75px;
+  border: 1px solid var(--weui-FG-1);
+  position: relative;
+}
+.image-plus-nb{
+  border: 0;
+}
+.image-plus-text{
+  color: var(--weui-FG-2);
+  font-size: 14px;
+}
+.image-plus-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--weui-FG-1);
+  width: 2px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+}
+.image-plus-vertical {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--weui-FG-1);
+  width: 40px;
+  height: 2px;
+  transform: translate(-50%, -50%);
+}

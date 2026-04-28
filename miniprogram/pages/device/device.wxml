@@ -1,0 +1,92 @@
+<view style="margin: 26rpx">
+  <button wx:if="{{!isConnected}}" bindtap="openBluetoothAdapter">开始扫描</button>
+  <button wx:else bindtap="closeBLEConnection">断开连接 - {{name}}</button>
+  <!-- 未连接 -->
+  <block wx:if="{{!isConnected}}">
+    <view class="devices_summary">已发现 {{devices.length}} 个外围设备：</view>
+    <view wx:for="{{devices}}" wx:key="index" data-device-id="{{item.deviceId}}" data-name="{{item.name || item.localName}}" bindtap="createBLEConnection" class="device_item" hover-class="device_item_hover">
+      <view style="font-size: 16px; color: #333">{{item.name}}</view>
+      <view style="font-size: 10px">信号强度: {{item.RSSI}}dBm</view>
+      <view style="font-size: 10px">UUID: {{item.deviceId}}</view>
+    </view>
+  </block>
+  <!-- 已连接 -->
+  <block>
+    <view class="rich-text-container" bindtap="toggleSection" data-section="data1">
+      <rich-text nodes="{{richText_data1}}"></rich-text>
+    </view>
+    <view wx:if="{{expandedSection === 'data1'}}" class="page">
+      <view class="page__bd">
+        <view class="weui-form-preview">
+          <view class="weui-form-preview__bd">
+            <view class="weui-form-preview__item">
+              <!-- <view class="weui-form-preview__label">输出电压</view>
+                          <view class="weui-form-preview__value_in-hd">100mv</view> -->
+            </view>
+          </view>
+          <slider bindchange="slider1change" show-value left-icon="cancel" right-icon="success_no_circle" max="20" min="0" />
+          <view class="weui-form-preview__ft">
+            <!-- <picker bindchange="bindPickerChange" data-type="pwm" value="{{index_pwm}}" range="{{array_pwm}}"><button type="default">设置PWM值</button></picker> -->
+            <button type="success" bindtap="setting1change">设置并启动</button>
+            <button type="warn">关闭</button>
+            <!-- <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">操作</navigator>
+                      <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">操作</navigator> -->
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="rich-text-container" bindtap="toggleSection" data-section="data2">
+      <rich-text nodes="{{richText_data2}}" bindtap="onRichTextTap"></rich-text>
+    </view>
+    <view wx:if="{{expandedSection === 'data2'}}" class="page">
+      <view class="page__bd">
+        <view class="weui-form-preview">
+          <view class="weui-form-preview__bd">
+            <view class="weui-form-preview__item">
+              <view class="weui-form-preview__label">伤口周长</view>
+              <view class="weui-form-preview__value">20mm</view>
+            </view>
+            <view class="weui-form-preview__item">
+              <view class="weui-form-preview__label">伤口面积</view>
+              <view class="weui-form-preview__value">30mm^2</view>
+            </view>
+          </view>
+          <view class="weui-form-preview__ft"></view>
+        </view>
+      </view>
+    </view>
+    <!-- <form report-submit='true' onsubmit="uploadImgs"> -->
+      <view class="cu-bar bg-white margin-top">
+        <view class="action">图片上传</view>
+        <view class="action">{{imgList.length}}/{{imgMaxNumber}}</view>
+      </view>
+      <view class="cu-form-group">
+        <view class="grid col-4 grid-square flex-sub">
+          <view class="bg-img" wx:for="{{imgList}}" wx:key="index" bindtap="ViewImage" data-url="{{imgList[index]}}">
+            <image src='{{imgList[index]}}' mode='aspectFill'></image>
+            <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+              <text class="cuIcon-close"></text>
+            </view>
+          </view>
+          <view class="solids" bindtap="ChooseImageTap" wx:if="{{imgList.length<imgMaxNumber}}">
+            <text class="cuIcon-cameraadd"></text>
+          </view>
+        </view>
+      </view>
+      <view class="cu-bar bg-white">
+        <button class='submit bg-blue margin-top margin-bottom' bindtap="uploadImgs" form-type='submit'>
+          提交
+        </button>
+      </view>
+    <!-- </form> -->
+  </block>
+</view>
+<!-- <view class="container">
+  <button type="primary" bindtap="light1on">灯1开</button>
+  <view style="height: 10px;"></view>
+  <button type="primary" bindtap="light1off">灯1关</button>
+  <view style="height: 10px;"></view>
+  <button type="default" bindtap="light2on">灯2开</button>
+  <view style="height: 10px;"></view>
+  <button type="default" bindtap="light2off">灯2关</button>
+</view> -->

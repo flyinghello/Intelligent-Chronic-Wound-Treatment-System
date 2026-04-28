@@ -1,0 +1,18 @@
+<view class="my-chart">
+  <ec-canvas id="mychart-dom1" canvas-id="mychart1" ec="{{ec1}}"></ec-canvas>
+</view>
+
+<view class="my-chart">
+  <ec-canvas id="mychart-dom2" canvas-id="mychart2" ec="{{ec2}}"></ec-canvas>
+</view>
+
+<view class="wrap">
+  <view class="btn {{type=='outcome' ?'on':''}}" data-type="outcome" bindtap="changeType">
+  outcome</view>
+  <view class="btn {{type=='income' ? 'on':''}}" data-type="income" bindtap="changeType">
+  income</view>
+</view>
+
+<view class="my-chart">
+  <ec-canvas id="lazy-mychart-dom" canvas-id="lazy-mychart" ec="{{lazyEc}}"></ec-canvas>
+</view> 
